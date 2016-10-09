@@ -552,6 +552,7 @@ public class OperatingSystem {
 	 * 
 	 * @param ramAdr
 	 */
+	@SuppressWarnings("unused")
 	private void freeRAMPage(int ramAdr) {
 		// Algorithmus:
 		// RAM-Seite mit Nullen überschreiben (Security!) und neuen
